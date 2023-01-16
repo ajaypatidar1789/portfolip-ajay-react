@@ -6,18 +6,19 @@ const Project = () => {
   const projects = [
     {
       id: 1,
+      title: "CryptoCurrency Tracker",
+      github:
+        "https://github.com/ajaypatidar1789/cryptoapp.git",
+      img: "/assets/Crypto.png",
+      live: "https://sweet-llama-4dbca8.netlify.app",
+    },
+    {
+      id: 1,
       title: "Loan EMI calculator",
       github:
         "https://github.com/ajaypatidar1789/Loan-EMI-calculator.git",
       img: "/assets/emi.png",
       live: "https://ajaypatidar1789.github.io/Loan-EMI-calculator/",
-    },
-    {
-      id: 2,
-      title: "VyayamShala Website",
-      github: "https://github.com/ajaypatidar1789/my-vyayam-shala-project.git",
-      img: "/assets/gym.png",
-      live: "https://ajaypatidar1789.github.io/my-vyayam-shala-project/",
     },
     {
       id: 3,
@@ -26,27 +27,7 @@ const Project = () => {
       img: "/assets/tic-tac-toe.png",
       live: "https://ajaypatidar1789.github.io/Tic-tac-toe/",
     },
-    // {
-    //   id: 4,
-    //   title: "Show Review React App",
-    //   github: "https://github.com/aayush-004v/Tv-Maze-React",
-    //   img: "/assets/tv-maze-app.png",
-    //   live: "https://tv-maze-react.vercel.app/",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Expense Tracker React",
-    //   github: "https://github.com/aayush-004v/Expense_Tracker_React",
-    //   img: "/assets/expense-tracker.png",
-    //   live: "https://expense-tracker-react-beta.vercel.app/",
-    // },
-    // {
-    //   id: 6,
-    //   title: "Weather App React",
-    //   github: "https://github.com/aayush-004v/weather-app-react",
-    //   img: "/assets/weather-app.png",
-    //   live: "https://weather-app-react-aayush.vercel.app/",
-    // },
+   
   ];
 
   return (
